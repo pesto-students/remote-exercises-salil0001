@@ -1,4 +1,4 @@
-const longestWordInString=(args) => Math.max(...args.split(" ").map(stringLength=>stringLength.length));
+const longestWordInString=(args) => Math.max(...args.split(" ").map(string=>string.length));
 
 
 export { longestWordInString };
